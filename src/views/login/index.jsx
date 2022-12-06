@@ -4,7 +4,7 @@ import { Form, Icon, Input, Button, message, Spin } from "antd";
 import { connect } from "react-redux";
 import DocumentTitle from "react-document-title";
 import "./index.less";
-import { login, getUserInfo } from "@/store/actions";
+import { login, getUserInfo } from "../../store/actions";
 
 const Login = (props) => {
   const { form, token, login, getUserInfo } = props;
@@ -17,7 +17,7 @@ const Login = (props) => {
     setLoading(true);
     login(username, password)
       .then((data) => {
-        message.success("登录成功");
+        message.success("Welcome");
         handleUserInfo(data.token);
       })
       .catch((error) => {
@@ -111,11 +111,11 @@ const Login = (props) => {
               </Button>
             </Form.Item>
             <Form.Item>
-              <span>账号 : admin 密码 : 随便填</span>
+              <span>Username : admin Password : admin</span>
               <br />
-              <span>账号 : editor 密码 : 随便填</span>
+              <span>Username : editor Password : editor</span>
               <br />
-              <span>账号 : guest 密码 : 随便填</span>
+              <span>Username : guest Password : guest</span>
             </Form.Item>
           </Spin>
         </Form>

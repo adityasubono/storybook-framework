@@ -52,7 +52,7 @@ const LayoutHeader = (props) => {
           href="https://github.com/NLRX-WJC/react-antd-admin-template"
           rel="noopener noreferrer"
         >
-          项目地址
+          Github
         </a>
       </Menu.Item>
       <Menu.Divider />
