@@ -1,14 +1,20 @@
-import * as React from "react";
-import { Admin, Resource } from 'react-admin';
-import restProvider from 'ra-data-simple-rest';
+import React, { Component } from 'react';
+import { Provider } from "react-redux";
+import { ConfigProvider } from "antd";
+import zhCN from "antd/es/locale/zh_CN";
+import store from "./store";
+import Router from "./router";
 
-import { PostList, PostEdit, PostCreate, PostIcon } from './posts';
-function App() {
+class App extends Component {
+  render() { 
     return (
-        <Admin dataProvider={restProvider('http://localhost:3000')}>
-            <Resource name="posts" list={PostList} edit={PostEdit} create={PostCreate} icon={PostIcon} />
-        </Admin>
+      <ConfigProvider locale={zhCN}>
+        <Provider store={store}>
+          <Router />
+        </Provider>
+      </ConfigProvider>
     );
+  }
 }
-
+ 
 export default App;

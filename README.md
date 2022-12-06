@@ -1,70 +1,121 @@
-# Getting Started with Create React App
+Admin System
+a. Parameter System
+b. Role
+b. User
+c. Access Definition
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+2 Business Development
+a. Licensing
+b. Marketing
+- Planning
+- Advertising
+  c. Admission
+- Setting
+- Register (Include Mobile Apps)
+- Registrant Profile
+- Scheduling
+- Rating
+- Acceptance
+- Result
+- Announcement (Include Mobile Apps)
+  d. Merchandise
 
-## Available Scripts
+3. Corporate Secretary
+   a. Corporate Social Responsibility (Include Mobile Apps)
+    - Recipient Profile
+    - Initialization
+    - Publish
+    - Receive Donation
+    - Monitoring
+    - Donate
+    - Reporting
 
-In the project directory, you can run:
+4. Academic Development
+   a. R&D Curriculum
+    - Research
+    - Gap Analysis
+    - Development
+    - Long Term Goal
+    - Quality Monitoring
+    - Assessment
+    - Review
+    - School Wide Assessment
+      b. Training
+    - Initial Training
+    - Assessment
+    - Training Report
+    - Evaluation
+    - Teacher Portfolio – Integrate with HRIS
+    - Continuous Development Program
+    - Certification
+    - Recertification
+    - Event Planner
+      b. e-Library
+    - Resource Analysis, Inventory, Resource Material & Socialization
+    - Resources & Material Distribution
+    - Utilization Analysis
+    - Library Activities
+    - Innovation Hub
+    - Material & Technology Production, Resource Purchasing, Resource & Material Requisition
 
-### `npm start`
+5. Finance
+   a. Financial Commitment
+    - Financial Document
+    - Tuition Fee Setup
+    - Reporting
+      b. Tuition Fee
+    - Invoicing (Include Mobile Apps) - Integrate MS Dynamics 365
+    - Payment (Include Mobile Apps) - Integrate MS Dynamics 365 & Payment Gateway
+    - Refund (Include Mobile Apps) - Integrate MS Dynamics 365
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+6. School Management
+   a. School Administration
+    - Administration Request
+    - Student Database Maintenance
+    - ECEP Student Processing
+    - Daily Schedule
+    - Scheduling HS Student
+    - Others Administration
+    - School Accreditation
+    - Reporting
+      b. School Program and Services
+    - Customer Service
+    - Clinic
+    - Enhance Learning Department (ELD)
+    - School Program and Service (SPS)
+    - College Counselor
+      c. School Operation
+    - Academic Calendar
+    - Teacher Profile – Integrate with HRIS
+    - Home School Collaboration
+    - Student Profile
+    - Course Selection and Scheduling
+    - Student Mapping
+    - Lesson Planning
+    - Student Planning
+    - Learning Activities
+    - Homework
+    - Assignment
+    - Project Reminder
+    - Assessment
+    - Grading
+    - Reporting
+    - School Quality Management
+    - Quality Management
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+6. Student (Include Mobile Apps)
+   a. Registration
+   b. Student Learning
+   c. Student Transfer
 
-### `npm test`
+7. Parents (Include Mobile Apps)
+   a. Communication (Include event, announcement, reminder)
+   b. Request
+   c. Complain
+   d. Student Monitoring
+   e. Invoicing
+   f. Payment
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+8. Alumni (Include Mobile Apps)
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+9. Reporting
